@@ -11,6 +11,18 @@ cd build
 pstest 7717/2
 cd $root
 
+# ------------------------------#
+# Device changes
+# ------------------------------#
+
+cd device/samsung/msm8960-common
+pstest 8924/2
+cd $root
+
+# ------------------------------#
+# Picks for all
+# ------------------------------#
+
 cd vendor/aokp
 pstest 8943/1
 cd $root
