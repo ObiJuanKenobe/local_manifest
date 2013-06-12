@@ -3,9 +3,7 @@
 
     <remote  name="gh"
            fetch="https://github.com/BMc08GT/" />
-
-    <project path="device/samsung/jflteusc" name="device_samsung_jflteusc" remote="gh" revision="jb-mr1" />
-
+   
     <!-- add this repo -->
     <project path="local_manifest" name="local_manifest" remote="gh" revision="master" />
 
