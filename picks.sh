@@ -16,7 +16,7 @@ cd $root
 # ------------------------------#
 
 cd device/samsung/msm8960-common
-pstest 8924/2
+pstest 9075/1
 cd $root
 
 # ------------------------------#
@@ -24,7 +24,7 @@ cd $root
 # ------------------------------#
 
 cd vendor/aokp
-pstest 8943/1
+pstest 8943/2
 cd $root
 
 # Reinitialize build environment with pspush
