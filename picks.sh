@@ -23,6 +23,14 @@ cd $root
 # Picks for all
 # ------------------------------#
 
+cd frameworks/base
+pstest 5133/3
+cd $root
+
+cd packages/apps/ROMControl
+pstest 9142/7
+cd $root
+
 cd vendor/aokp
 pstest 8943/1
 cd $root
