@@ -28,7 +28,7 @@ cd $root
 
 cd frameworks/base
 pstest 5133/3
-git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_base refs/changes/80/44580/5 && git cherry-pick FETCH_HEAD
+pstest 9158/1
 cd $root
 
 cd hardware/libhardware
