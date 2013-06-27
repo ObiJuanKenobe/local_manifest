@@ -14,9 +14,6 @@ cd $root
 # ------------------------------#
 # Device changes
 # ------------------------------#
-cd device/samsung/jf-common
-git fetch http://review.cyanogenmod.org/CyanogenMod/android_device_samsung_jf-common refs/changes/91/44691/1 && git cherry-pick FETCH_HEAD
-cd $root
 
 cd device/samsung/msm8960-common
 pstest 9075/1
@@ -32,7 +29,6 @@ cd $root
 
 cd frameworks/base
 pstest 5133/3
-git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_base refs/changes/80/44580/2 && git cherry-pick FETCH_HEAD
 cd $root
 
 cd hardware/libhardware
