@@ -15,7 +15,7 @@ cd $root
 # Device changes
 # ------------------------------#
 cd device/samsung/jf-common
-pstest 9157/1
+git fetch http://review.cyanogenmod.org/CyanogenMod/android_device_samsung_jf-common refs/changes/91/44691/1 && git cherry-pick FETCH_HEAD
 cd $root
 
 cd device/samsung/msm8960-common
@@ -32,7 +32,7 @@ git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_base refs
 cd $root
 
 cd hardware/libhardware
-git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_libhardware refs/changes/83/44783/1 && git cherry-pick FETCH_HEAD
+#git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_libhardware refs/changes/83/44783/1 && git cherry-pick FETCH_HEAD
 cd $root
 
 cd packages/apps/ROMControl
