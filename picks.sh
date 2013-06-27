@@ -29,6 +29,7 @@ cd $root
 
 cd packages/apps/ROMControl
 pstest 9142/7
+pstest 9132/4
 cd $root
 
 cd vendor/aokp
