@@ -22,6 +22,10 @@ cd device/samsung/msm8960-common
 pstest 9075/1
 cd $root
 
+cd device/samsung/qcom-common
+pstest 9163/1
+cd $root
+
 # ------------------------------#
 # Picks for all
 # ------------------------------#
