@@ -23,6 +23,10 @@ cd $root
 # Picks for all
 # ------------------------------#
 
+cd frameworks/av
+pstest 9211/1
+cd $root
+
 cd frameworks/base
 pstest 5133/3
 git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_base refs/changes/80/44580/9 && git cherry-pick FETCH_HEAD
