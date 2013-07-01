@@ -42,7 +42,8 @@ pstest 8943/1
 cd $root
 
 cd vendor/samsung
-pstest 9220/1
+pstest 9220/2
+pstest 9223/1
 cd $root
 
 # Reinitialize build environment with pspush
