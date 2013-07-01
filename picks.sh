@@ -15,12 +15,8 @@ cd $root
 # Device changes
 # ------------------------------#
 
-cd device/samsung/msm8960-common
-pstest 9075/1
-cd $root
-
-cd device/samsung/qcom-common
-pstest 9163/1
+cd device/samsung/jf-common
+git fetch http://review.cyanogenmod.org/CyanogenMod/android_device_samsung_jf-common refs/changes/91/44691/5 && git cherry-pick FETCH_HEAD
 cd $root
 
 # ------------------------------#
@@ -29,19 +25,24 @@ cd $root
 
 cd frameworks/base
 pstest 5133/3
+git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_base refs/changes/80/44580/9 && git cherry-pick FETCH_HEAD
 cd $root
 
 cd hardware/libhardware
-#git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_libhardware refs/changes/83/44783/1 && git cherry-pick FETCH_HEAD
+git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_libhardware refs/changes/83/44783/4 && git cherry-pick FETCH_HEAD
 cd $root
 
 cd packages/apps/ROMControl
-pstest 9142/7
-pstest 9132/4
+pstest 9142/16
+pstest 9132/5
 cd $root
 
 cd vendor/aokp
 pstest 8943/1
+cd $root
+
+cd vendor/samsung
+pstest 9220/1
 cd $root
 
 # Reinitialize build environment with pspush
