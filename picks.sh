@@ -39,6 +39,10 @@ cd hardware/libhardware
 git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_libhardware refs/changes/83/44783/4 && git cherry-pick FETCH_HEAD
 cd $root
 
+cd hardware/qcom/audio-caf
+git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_audio-caf refs/changes/93/44893/1 && git cherry-pick FETCH_HEAD
+cd $root
+
 cd packages/apps/Mms
 psest 9291/1
 cd $root
