@@ -1,6 +1,8 @@
 # symlinked from local_manifest repo
 # Run from root of source tree
 
+PRIVACY=$1
+
 root=`pwd`
 cd $root
 
@@ -68,6 +70,7 @@ cd vendor/samsung
 pstest 9331/1
 cd $root
 
+if [ "$PRIVACY" = "privacy" ]; then
 #### PRIVACY GUARD START #####
 cd frameworks/base
 pstest 9278/2
@@ -97,7 +100,7 @@ pstest 9276/1
 cd $root
 
 #### PRIVACY GUARD END ####
-
+fi
 
 
 
