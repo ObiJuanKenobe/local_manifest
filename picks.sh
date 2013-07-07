@@ -66,10 +66,6 @@ cd vendor/aokp
 pstest 8943/1
 cd $root
 
-cd vendor/samsung
-pstest 9331/1
-cd $root
-
 if [ "$PRIVACY" = "privacy" ]; then
 #### PRIVACY GUARD START #####
 cd frameworks/base
