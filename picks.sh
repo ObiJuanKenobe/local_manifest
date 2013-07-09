@@ -25,12 +25,8 @@ cd $root
 # Picks for all
 # ------------------------------#
 
-cd frameworks/av
-pstest 9211/1
-cd $root
-
 cd external/webkit
-pstest 9309/1
+#pstest 9309/1
 cd $root
 
 cd frameworks/base
@@ -49,7 +45,7 @@ git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_libhardware
 cd $root
 
 cd packages/apps/Camera
-pstest 9328/3
+pstest 9328/5
 cd $root
 
 cd packages/apps/Mms
@@ -60,6 +56,10 @@ cd packages/apps/ROMControl
 pstest 9142/16
 # soft key RC side has FC
 #pstest 7601/3
+cd $root
+
+cd packages/apps/Settings
+pstest 9329/17
 cd $root
 
 cd vendor/aokp
