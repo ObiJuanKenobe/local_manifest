@@ -1,7 +1,7 @@
 # symlinked from local_manifest repo
 # Run from root of source tree
 
-PRIVACY=$1
+FILTER=$1
 
 root=`pwd`
 cd $root
@@ -12,6 +12,8 @@ cd $root
 cd build
 pstest 7717/2
 cd $root
+
+if [ "$FILTER" = "" ]; then
 
 # ------------------------------#
 # Device changes
@@ -66,7 +68,32 @@ cd vendor/aokp
 pstest 8943/1
 cd $root
 
-if [ "$PRIVACY" = "privacy" ]; then
+fi
+
+if [ "$FILTER" = "exfat" ]; then
+#### EXFAT START ####
+cd external/e2fsprogs
+pstest 9343/1
+cd $root
+
+cd frameworks/base
+pstest 9343/1
+pstest 9345/1
+pstest 9348/1
+cd $root
+
+cd system/vold
+pstest 9346/1
+pstest 9347/1
+cd $root
+
+cd vendor/aokp
+pstest 9349/1
+cd $root
+#### EXFAT END ####
+fi
+
+if [ "$FILTER" = "privacy" ]; then
 #### PRIVACY GUARD START #####
 cd frameworks/base
 pstest 9278/2
