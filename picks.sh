@@ -78,12 +78,6 @@ cd external/e2fsprogs
 pstest 9343/1
 cd $root
 
-cd frameworks/base
-pstest 9343/1
-pstest 9345/1
-pstest 9348/1
-cd $root
-
 cd system/vold
 pstest 9346/1
 pstest 9347/1
