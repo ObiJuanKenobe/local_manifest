@@ -35,11 +35,7 @@ cd frameworks/base
 pstest 5133/3
 pstest 9282/1
 pstest 9301/1
-pstest 8562/3
 pstest 7600/3
-pstest 9308/1
-pstest 9311/1
-pstest 9312/1
 cd $root
 
 cd hardware/libhardware
@@ -47,7 +43,7 @@ git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_libhardware
 cd $root
 
 cd packages/apps/Camera
-pstest 9328/5
+pstest 9328/8
 cd $root
 
 cd packages/apps/Mms
@@ -61,11 +57,17 @@ pstest 9142/16
 cd $root
 
 cd packages/apps/Settings
-pstest 9329/17
+pstest 9367/4
 cd $root
 
 cd vendor/aokp
 pstest 8943/1
+pstest 9378/1
+pstest 9379/1
+cd $root
+
+cd vendor/samsung
+pstest 9371/1
 cd $root
 
 fi
