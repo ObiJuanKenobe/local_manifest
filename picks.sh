@@ -20,7 +20,7 @@ if [ "$FILTER" = "" ]; then
 # ------------------------------#
 
 cd device/samsung/jf-common
-pstest 9280/1
+pstest 9354/1
 cd $root
 
 # ------------------------------#
