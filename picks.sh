@@ -27,10 +27,6 @@ cd $root
 # Picks for all
 # ------------------------------#
 
-cd external/webkit
-#pstest 9309/1
-cd $root
-
 cd frameworks/base
 pstest 5133/3
 pstest 9282/1
@@ -63,11 +59,6 @@ cd $root
 cd vendor/aokp
 pstest 8943/1
 pstest 9378/1
-pstest 9379/1
-cd $root
-
-cd vendor/samsung
-pstest 9371/1
 cd $root
 
 fi
