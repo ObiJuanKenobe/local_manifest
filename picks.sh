@@ -31,6 +31,7 @@ cd frameworks/base
 pstest 5133/3
 pstest 9282/1
 pstest 7600/6
+pstest 9462/2
 cd $root
 
 cd hardware/libhardware
@@ -43,8 +44,8 @@ cd $root
 
 cd packages/apps/ROMControl
 pstest 9142/16
-# soft key RC side has FC
-#pstest 7601/3
+pstest 7601/7
+pstest 9463/1
 cd $root
 
 cd packages/apps/Settings
@@ -53,6 +54,7 @@ cd $root
 
 cd vendor/aokp
 pstest 8943/1
+pstest 9300/2
 cd $root
 
 fi
