@@ -4,14 +4,10 @@ echo " Symlinking scripts: picks.sh, update.sh, sync, and compile"
 ln -s local_manifest/picks.sh picks.sh
 ln -s local_manifest/sync sync
 ln -s local_manifest/compile compile
-ln -s local_manifest/build-clean-kernel build-clean-kernel
-ln -s local_manifest/jfltesetup.sh jfltesetup.sh
 echo " making executable"
 chmod a+x picks.sh
 chmod a+x sync
 chmod a+x compile
-chmod a+x build-clean-kernel
-chmod a+x jfltesetup.sh
 else
 echo " Scripts already setup."
 fi
