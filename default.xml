@@ -37,6 +37,9 @@
   <remove-project name="AOKP/packages_providers_TelephonyProvider" />
   <remove-project name="AOKP/system_extras" />
   <remove-project name="AOKP/system_vold" />
+  <remove-project name="AOKP/vendor_aokp" />
+  <remove-project name="AOKP/vendor_samsung" />
+  
   
   <!-- add this repo -->
   <project path="local_manifest" name="local_manifest" remote="bcf" revision="4dot3" />
@@ -72,12 +75,15 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="bcf" revision="jb-mr2" />
   <project path="system/extras" name="system_extras" remote="bcf" revision="jb-mr2" />
   <project path="system/vold" name="system_vold" remote="bcf" revision="jb-mr2" />
+  <project path="vendora/aokp" name="vendor_aokp" remote="bcf" revision="jb-mr2" />
   
   <!-- Devices !!USE GROUPS!! --TESTING -->
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="bcf" revision="jb-mr2" groups="d2" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="bcf" revision="jb-mr2" groups="jf" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="bcf" revision="jb-mr2" groups="d2,jf" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="bcf" revision="jb-mr2" groups="d2,jf" />
+  <project path="vendora/samsung" name="vendor_samsung" remote="bcf" revision="jb-mr2" groups="d2,jf" />
+  
   <!-- Kernels-->
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" revision="cm-10.2" groups="d2" />
   <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="bcf" revision="jb-mr2" groups="jf" />
