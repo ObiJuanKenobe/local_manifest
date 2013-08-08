@@ -6,7 +6,6 @@
            
   <!-- Remove AOKP projects for BCF alternatives -->
   <remove-project name="AOKP/build" />
-  <remove-project name="AOKP/dalvik" />
   <remove-project name="AOKP/device_samsung_d2-common" />
   <remove-project name="AOKP/device_samsung_jf-common" />
   <remove-project name="AOKP/device_samsung_msm8960-common" />
@@ -48,7 +47,6 @@
   <project path="build" name="build" remote="bcf" revision="jb-mr2" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="dalvik" remote="bcf" revision="jb-mr2" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="bcf" revision="jb-mr2" groups="pdk" />
   <project path="external/jpeg" name="external_jpeg" remote="bcf" revision="jb-mr2" />
   <project path="external/webkit" name="external_webkit" remote="bcf" revision="jb-mr2" />
