@@ -77,7 +77,7 @@
   <project path="system/vold" name="system_vold" remote="bcf" revision="jb-mr2" />
   <project path="vendora/aokp" name="vendor_aokp" remote="bcf" revision="jb-mr2" />
   
-  <!-- Devices !!USE GROUPS!! --TESTING -->
+  <!-- Devices --><!-- TESTING -->
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="bcf" revision="jb-mr2" groups="notdefault,d2" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="bcf" revision="jb-mr2" groups="notdefault,jf" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="bcf" revision="jb-mr2" groups="notdefault,d2,jf" />
