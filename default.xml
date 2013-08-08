@@ -73,14 +73,14 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="bcf" revision="jb-mr2" />
   <project path="system/extras" name="system_extras" remote="bcf" revision="jb-mr2" />
   <project path="system/vold" name="system_vold" remote="bcf" revision="jb-mr2" />
-  <project path="vendora/aokp" name="vendor_aokp" remote="bcf" revision="jb-mr2" />
+  <project path="vendor/aokp" name="vendor_aokp" remote="bcf" revision="jb-mr2" />
   
   <!-- Devices --><!-- TESTING -->
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="bcf" revision="jb-mr2" groups="notdefault,d2" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="bcf" revision="jb-mr2" groups="notdefault,jf" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="bcf" revision="jb-mr2" groups="notdefault,d2,jf" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="bcf" revision="jb-mr2" groups="notdefault,d2,jf" />
-  <project path="vendora/samsung" name="vendor_samsung" remote="bcf" revision="jb-mr2" groups="notdefault,d2,jf" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="bcf" revision="jb-mr2" groups="notdefault,d2,jf" />
   
   <!-- Kernels-->
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" revision="cm-10.2" groups="notdefault,d2" />
