@@ -7,6 +7,10 @@
   <!-- Remove AOKP projects for BCF alternatives -->
   <remove-project name="AOKP/build" />
   <remove-project name="AOKP/dalvik" />
+  <remove-project name="AOKP/device_samsung_d2-common" />
+  <remove-project name="AOKP/device_samsung_jf-common" />
+  <remove-project name="AOKP/device_samsung_msm8960-common" />
+  <remove-project name="AOKP/device_samsung_qcom-common" />
   <remove-project name="AOKP/external_e2fsprogs" />
   <remove-project name="AOKP/external_jpeg" />
   <remove-project name="AOKP/external_webkit" />
@@ -15,19 +19,67 @@
   <remove-project name="AOKP/frameworks_native" />
   <remove-project name="AOKP/frameworks_rs" />
   <remove-project name="AOKP/hardware_qcom_power" />
-  <remove-project name="AOKP/" />
-  <remove-project name="AOKP/" />
-  <remove-project name="AOKP/" />
-  <remove-project name="AOKP/" />
-  <remove-project name="AOKP/" />
-  <remove-project name="AOKP/" />
-  <remove-project name="AOKP/" />
+  <remove-project name="AOKP/packages_apps_Browser" />
+  <remove-project name="AOKP/packages_apps_DeskClock" />
+  <remove-project name="AOKP/packages_apps_Email" />
+  <remove-project name="AOKP/packages_apps_Gallery2" />
+  <remove-project name="AOKP/packages_apps_Launcher2" />
+  <remove-project name="AOKP/packages_apps_Mms" />
+  <remove-project name="AOKP/packages_apps_Nfc" />
+  <remove-project name="AOKP/packages_apps_PackageInstaller" />
+  <remove-project name="AOKP/packages_apps_QuickSearchBox" />
+  <remove-project name="AOKP/packages_apps_Settings" />
+  <remove-project name="AOKP/packages_apps_VoiceDialer" />
+  <remove-project name="AOKP/packages_input_LatinIME" />
+  <remove-project name="AOKP/packages_providers_ContactsProvider" />
+  <remove-project name="AOKP/packages_providers_DownloadProvider" />
+  <remove-project name="AOKP/packages_providers_MediaProvider" />
+  <remove-project name="AOKP/packages_providers_TelephonyProvider" />
+  <remove-project name="AOKP/system_extras" />
+  <remove-project name="AOKP/system_vold" />
   
   <!-- add this repo -->
   <project path="local_manifest" name="local_manifest" remote="bcf" revision="4dot3" />
 
-  <!-- Kernel(s) tracking AOKP upstream-->
-  <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" revision="cm-10.2" />
-  <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="bcf" revision="jb-mr2" />
+  <!-- Core -->
+  <project path="build" name="build" remote="bcf" revision="jb-mr2" groups="pdk">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="dalvik" name="dalvik" remote="bcf" revision="jb-mr2" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="bcf" revision="jb-mr2" groups="pdk" />
+  <project path="external/jpeg" name="external_jpeg" remote="bcf" revision="jb-mr2" />
+  <project path="external/webkit" name="external_webkit" remote="bcf" revision="jb-mr2" />
+  <project path="frameworks/av" name="frameworks_av" remote="bcf" revision="jb-mr2" groups="pdk" />
+  <project path="frameworks/base" name="frameworks_base" remote="bcf" revision="jb-mr2" />
+  <project path="frameworks/native" name="frameworks_native" remote="bcf" revision="jb-mr2" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="bcf" revision="jb-mr2" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="bcf" revision="jb-mr2" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="bcf" revision="jb-mr2" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="bcf" revision="jb-mr2" />
+  <project path="packages/apps/Email" name="packages_apps_Email" remote="bcf" revision="jb-mr2" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="bcf" revision="jb-mr2" />
+  <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" remote="bcf" revision="jb-mr2" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="bcf" revision="jb-mr2" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bcf" revision="jb-mr2" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="bcf" revision="jb-mr2" />
+  <project path="packages/apps/QuickSearchBox" name="packages_apps_QuickSearchBox" remote="bcf" revision="jb-mr2" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bcf" revision="jb-mr2" />
+  <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="bcf" revision="jb-mr2" />
+  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="bcf" revision="jb-mr2" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="bcf" revision="jb-mr2" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="bcf" revision="jb-mr2" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="bcf" revision="jb-mr2" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="bcf" revision="jb-mr2" />
+  <project path="system/extras" name="system_extras" remote="bcf" revision="jb-mr2" />
+  <project path="system/vold" name="system_vold" remote="bcf" revision="jb-mr2" />
+  
+  <!-- Devices !!USE GROUPS!! --TESTING -->
+  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="bcf" revision="jb-mr2" groups="d2" />
+  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="bcf" revision="jb-mr2" groups="jf" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="bcf" revision="jb-mr2" groups="d2,jf" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="bcf" revision="jb-mr2" groups="d2,jf" />
+  <!-- Kernels-->
+  <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" revision="cm-10.2" groups="d2" />
+  <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="bcf" revision="jb-mr2" groups="jf" />
 
 </manifest> 
