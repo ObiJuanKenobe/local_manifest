@@ -35,6 +35,7 @@
   <remove-project name="AOKP/packages_providers_DownloadProvider" />
   <remove-project name="AOKP/packages_providers_MediaProvider" />
   <remove-project name="AOKP/packages_providers_TelephonyProvider" />
+  <remove-project name="AOKP/system_core" />
   <remove-project name="AOKP/system_extras" />
   <remove-project name="AOKP/system_vold" />
   <remove-project name="AOKP/vendor_aokp" />
@@ -73,6 +74,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="bcf" revision="jb-mr2" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="bcf" revision="jb-mr2" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="bcf" revision="jb-mr2" />
+  <project path="system/core" name="system_core" remote="bcf" revision="jb-mr2" />
   <project path="system/extras" name="system_extras" remote="bcf" revision="jb-mr2" />
   <project path="system/vold" name="system_vold" remote="bcf" revision="jb-mr2" />
   <project path="vendor/aokp" name="vendor_aokp" remote="bcf" revision="jb-mr2" />
