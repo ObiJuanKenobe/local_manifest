@@ -35,6 +35,7 @@
   <remove-project name="AOKP/packages_apps_PackageInstaller" />
   <remove-project name="AOKP/packages_apps_QuickSearchBox" />
   <remove-project name="AOKP/packages_apps_Settings" />
+  <remove-project name="AOKP/packages_apps_ROMControl" />
   <remove-project name="AOKP/packages_apps_VoiceDialer" />
   <remove-project name="AOKP/packages_input_LatinIME" />
   <remove-project name="AOKP/packages_providers_ContactsProvider" />
