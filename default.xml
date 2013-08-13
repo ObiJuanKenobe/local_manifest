@@ -69,7 +69,7 @@
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="bcf" revision="jb-mr2" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="bcf" revision="jb-mr2" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="bcf" revision="jb-mr2" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="bcf" revision="jb-mr2_testing" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="bcf" revision="jb-mr2" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="bcf" revision="jb-mr2" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="bcf" revision="jb-mr2" />
