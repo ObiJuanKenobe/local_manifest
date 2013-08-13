@@ -13,6 +13,7 @@
   <remove-project name="AOKP/external_bluetooth_bluedroid" />
   <remove-project name="AOKP/external_e2fsprogs" />
   <remove-project name="AOKP/external_jpeg" />
+  <remove-project name="platform/external/libsepol" />
   <remove-project name="AOKP/external_skia" />
   <remove-project name="AOKP/external_webkit" />
   <remove-project name="AOKP/frameworks_av" />
@@ -59,6 +60,7 @@
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="bcf" revision="jb-mr2" groups="pdk" />
   <project path="external/jpeg" name="external_jpeg" remote="bcf" revision="jb-mr2_testing" />
+  <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-10.2" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-10.2" />
   <project path="external/webkit" name="external_webkit" remote="bcf" revision="jb-mr2" />
   <project path="frameworks/av" name="frameworks_av" remote="bcf" revision="jb-mr2_testing" groups="pdk" />
