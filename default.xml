@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="bcf"
-           fetch="https://github.com/BrewCrewFoo/" />  e
+           fetch="https://github.com/BrewCrewFoo/" />
            
   <!-- Remove AOKP projects for BCF alternatives -->
   <remove-project name="AOKP/build" />
