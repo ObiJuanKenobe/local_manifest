@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="bcf"
-           fetch="https://github.com/BrewCrewFoo/" />  
+           fetch="https://github.com/BrewCrewFoo/" />  e
            
   <!-- Remove AOKP projects for BCF alternatives -->
   <remove-project name="AOKP/build" />
@@ -59,6 +59,7 @@
   </project>
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="bcf" revision="jb-mr2" groups="pdk" />
+  <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/jpeg" name="external_jpeg" remote="bcf" revision="jb-mr2_testing" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-10.2" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-10.2" />
