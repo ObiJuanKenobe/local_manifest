@@ -1,7 +1,7 @@
 doCurl=$1
 
 if [ "$doCurl" = "-y" ]; then
-	curl -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/BMrewCrewFoo/local_manifest/4dot3/default.xml
+	curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/BrewCrewFoo/local_manifest/4dot3/default.xml
 fi
 
 repo sync -j$(cat /proc/cpuinfo | grep "^processor" | wc -l)

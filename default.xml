@@ -14,6 +14,7 @@
   <remove-project name="AOKP/external_e2fsprogs" />
   <remove-project name="AOKP/external_jpeg" />
   <remove-project name="AOKP/external_koush_Superuser" />
+  <remove-project name="AOKP/external_koush_Widgets" />
   <remove-project name="platform/external/libsepol" />
   <remove-project name="AOKP/external_skia" />
   <remove-project name="AOKP/external_webkit" />
@@ -62,6 +63,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="bcf" revision="jb-mr2" groups="pdk" />
   <project path="external/jpeg" name="external_jpeg" remote="bcf" revision="jb-mr2_testing" />
   <project path="external/koush/Superuser" name="external_koush_Superuser" remote="bcf" revision="jb-mr2" />
+  <project path="external/koush/Widgets" name="external_koush_Widgets" remote="bcf" revision="jb-mr2" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-10.2" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-10.2" />
   <project path="external/webkit" name="external_webkit" remote="bcf" revision="jb-mr2" />
