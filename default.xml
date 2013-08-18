@@ -16,6 +16,7 @@
   <remove-project name="AOKP/external_koush_Superuser" />
   <remove-project name="AOKP/external_koush_Widgets" />
   <remove-project name="platform/external/libsepol" />
+  <remove-project name="platform/external/sepolicy" />
   <remove-project name="AOKP/external_skia" />
   <remove-project name="AOKP/external_webkit" />
   <remove-project name="AOKP/frameworks_av" />
@@ -66,6 +67,7 @@
   <project path="external/koush/Widgets" name="external_koush_Widgets" remote="bcf" revision="jb-mr2" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-10.2" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-10.2" />
+  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-10.2" />
   <project path="external/webkit" name="external_webkit" remote="bcf" revision="jb-mr2" />
   <project path="frameworks/av" name="frameworks_av" remote="bcf" revision="jb-mr2_testing" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="bcf" revision="jb-mr2_testing" />
