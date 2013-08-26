@@ -69,6 +69,7 @@
   <project path="external/koush/Superuser" name="external_koush_Superuser" remote="bcf" revision="jb-mr2" />
   <project path="external/koush/Widgets" name="external_koush_Widgets" remote="bcf" revision="jb-mr2" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-10.2" />
+  <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="cm" revision="cm-10.2" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-10.2" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-10.2" />
   <project path="external/webkit" name="external_webkit" remote="bcf" revision="jb-mr2" />
